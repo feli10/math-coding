@@ -1,11 +1,11 @@
 <div id="top"></div>
 
-![Learn Elementary School Math with Coding](_en/README_img/title.jpg)
+![Learn Elementary School Math with Coding](README_img/title.jpg)
 
-[![LICENSE](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE)
+[![LICENSE](https://img.shields.io/badge/license-Apache--2.0-green.svg)](../LICENSE)
 [![Python](https://img.shields.io/pypi/pyversions/matplotlib?logo=python&logoColor=ffdd54)](https://www.python.org/)
 
-<h4 align="center">English | <a href="_cn/README.md">中文</a></h4>
+<h4 align="center">English | <a href="../_cn/README.md">中文</a></h4>
 
 ## Table of Contents
 * [What is this?](#what-is-this)
@@ -31,15 +31,15 @@ The project library contains 60 Python programs that we wrote during the year, i
 
 | `Graphical User Interface` | `Command Line Interface` |
 | --- | --- |
-| <img src="_en/README_img/g422_cubes_3view_2.png" alt="An examples of GUI programs" width="500"> | <img src="_en/README_img/g326_calendar.png" alt="An examples of CLI programs" width="500"> |
+| <img src="README_img/g422_cubes_3view_2.png" alt="An examples of GUI programs" width="500"> | <img src="README_img/g326_calendar.png" alt="An examples of CLI programs" width="500"> |
 
 All programs and the companion handbook have separate versions in English and Chinese. The `_en` directory contains the English version, with all graphical displays and program comments in English. The `_cn` directory contains the Chinese version, with all graphical displays and program comments in Chinese.
 
-<p align="center"><img src="_en/README_img/en_cn.jpg" alt="Comparison of English and Chinese handbooks" width="600"></p>
+<p align="center"><img src="README_img/en_cn.jpg" alt="Comparison of English and Chinese handbooks" width="600"></p>
 
 [Download math_coding_handbook.pdf (English version)](math_coding_handbook.pdf)
 
-[Download math_coding_handbook.pdf (Chinese version)](_cn/小学数学编程学习手册.pdf)
+[Download math_coding_handbook.pdf (Chinese version)](../_cn/小学数学编程学习手册.pdf)
 
 Through this project, my brother and I have proven in practice that learning elementary math with coding allows learners to efficiently and effectively study mathematics while simultaneously becoming proficient in a programming language.
 
@@ -89,11 +89,11 @@ I hope this project can provide people with a new approach to learning mathemati
     * Program description.
     * Screenshots of program output.
 
-    <p align="center"><img src="_en/README_img/guide.jpg" alt="Introduction to the use of handbook" width="600"></p>
+    <p align="center"><img src="README_img/guide.jpg" alt="Introduction to the use of handbook" width="600"></p>
 
 * All programs contain a detailed docstring at the beginning and useful comments throughout.
 
-    ![Docstring example](_en/README_img/docstring.png)
+    ![Docstring example](README_img/docstring.png)
 
 * The companion handbook and all programs have separate English and Chinese versions. The `_en` and `_cn` directories are organized in the same way but with content in English and Chinese, respectively.
 * Some programs in the code library contain references to each other. Therefore, we recommend downloading the entire code library before use.
@@ -101,7 +101,7 @@ I hope this project can provide people with a new approach to learning mathemati
     * All mathematical units are in SI (International System).
     * The display of vertical form arithmetics in certain programs is based on the vertical forms shown in Chinese textbooks.
 
-        <img src="_en/README_img/g414_long_multiplicaiton2.png" alt="Long multipication example" width="260">
+        <img src="README_img/g414_long_multiplicaiton2.png" alt="Long multipication example" width="260">
 
 ## 数学单元程序列表
 
@@ -191,7 +191,7 @@ Therefore, we prioritized results above efficiency for most of our programs. How
 
 1. [Download the Python installer from Python's official website](https://www.python.org/downloads/) (suitable for various operating systems). For Windows users, make sure to check the "Add python.exe to PATH" option during installation.
 
-    <p align="center"><img src="_en/README_img/python_install_win.png" alt="Python Windows installer interface" width="80%"></p>
+    <p align="center"><img src="README_img/python_install_win.png" alt="Python Windows installer interface" width="80%"></p>
    
 3. [Install Anaconda or Miniconda](https://docs.conda.io/projects/conda/en/stable/user-guide/install/download.html) (suitable for various operating systems). Conda is an open-source package and environment management system. Installing Conda also installs Python and some commonly used modules.
 4. Use [Homebrew](https://brew.sh/) to install Python (suitable for macOS and Linux operating systems). Homebrew is an open-source package management system. If Homebrew is already installed on your system, you can use the following command to install Python:
@@ -204,13 +204,13 @@ Therefore, we prioritized results above efficiency for most of our programs. How
 
 1. IDLE (Integrated Development and Learning Environment) is the built-in programming tool for Python. It includes an interactive interpreter and code editor. IDLE only has bare-bone functionalities, so it is recommended to use a more powerful code editor like VS Code.
 
-    ![IDLE as a code editor](_en/README_img/idle_code_editor.png)
+    ![IDLE as a code editor](README_img/idle_code_editor.png)
 
 2. VS Code (Visual Studio Code)
     * [First, download and install VS Code](https://code.visualstudio.com/download).
     * After launching VS Code, search for and install the Python extension in the Extensions panel. 
 
-    ![VSCode](_en/README_img/vscode.png)
+    ![VSCode](README_img/vscode.png)
 
 ### Interactive Interpreter (Python shell)
 
@@ -220,12 +220,12 @@ You can access the Python interactive interpreter in the following ways:
 
 1. For macOS or Linux users, you can enter `python` in the terminal to access the interactive interpreter. If the system doesn't recognize `python`, you can try `python3`.
 
-    ![Enter the interactive interpreter from Terminal](_en/README_img/terminal.png)
+    ![Enter the interactive interpreter from Terminal](README_img/terminal.png)
 
 2. Windows users can access the interactive interpreter by clicking "Python" in the menu or entering `python` in the Command Prompt window (cmd.exe). If the system doesn't recognize `python`, you can try `python3` or `py`.
 3. The built-in programming tool IDLE in Python directly opens the interactive interpreter when launched.
 
-    ![IDLE as an interactive interpreter](_en/README_img/idle_shell.png)
+    ![IDLE as an interactive interpreter](README_img/idle_shell.png)
 
 4. You can also access the interactive interpreter through VS Code's built-in terminal or interactive window.
 
