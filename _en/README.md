@@ -37,9 +37,9 @@ All programs and the companion handbook have separate versions in English and Ch
 
 <p align="center"><img src="README_img/en_cn.jpg" alt="Comparison of English and Chinese handbooks" width="600"></p>
 
-[Download math_coding_handbook.pdf (English version)](math_coding_handbook.pdf)
+[Download math_coding_handbook.pdf (English version)](https://raw.github.com/feli10/math-coding/main/math_coding_handbook.pdf)
 
-[Download math_coding_handbook.pdf (Chinese version)](../_cn/小学数学编程学习手册.pdf)
+[Download math_coding_handbook.pdf (Chinese version)](https://raw.github.com/feli10/math-coding/main/_cn/小学数学编程手册.pdf)
 
 Through this project, my brother and I have proven in practice that learning elementary math with coding allows learners to efficiently and effectively study mathematics while simultaneously becoming proficient in a programming language.
 
