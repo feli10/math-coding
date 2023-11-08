@@ -13,7 +13,7 @@
 * [Project Origins](#project-origins)
 * [Project Goals](#project-goals)
 * [Usage Information](#usage-information)
-* [数学单元程序列表](#数学单元程序列表)
+* [List of Units and Programs](#list-of-units-and-programs)
 * [Design Principles of Coding Exercises](#design-principles-of-coding-exercises)
 * [Programming Style](#programming-style)
 * [Setting Up the Development Environment](#setting-up-the-development-environment)
@@ -37,9 +37,9 @@ All programs and the companion handbook have separate versions in English and Ch
 
 <p align="center"><img src="_en/README_img/en_cn.jpg" alt="Comparison of English and Chinese handbooks" width="600"></p>
 
-[Download math_coding_handbook.pdf (English version)](https://raw.github.com/feli10/math-coding/main/math_coding_handbook.pdf)
+[Download math_coding_handbook.pdf (English version)](https://feli10.github.io/math-coding/docs/math_coding_handbook.pdf)
 
-[Download math_coding_handbook.pdf (Chinese version)](https://raw.github.com/feli10/math-coding/main/_cn/小学数学编程手册.pdf)
+[Download math_coding_handbook.pdf (Chinese version)](https://feli10.github.io/math-coding/docs/小学数学编程手册.pdf)
 
 Through this project, my brother and I have proven in practice that learning elementary math with coding allows learners to efficiently and effectively study mathematics while simultaneously becoming proficient in a programming language.
 
@@ -103,59 +103,59 @@ I hope this project can provide people with a new approach to learning mathemati
 
         <img src="_en/README_img/g414_long_multiplicaiton2.png" alt="Long multipication example" width="260">
 
-## 数学单元程序列表
+## List of Units and Programs
 
-| 编号 | 课程（对应人教版数学教材） | 程序 |
+| Unit ID | Unit Name | Program(s) |
 | --- | --- | --- |
-| G311 | 时、分、秒 | 1. 表盘时钟<br>2. 数字时钟计数器 |
-| G312 | 万以内的加法和减法（一） | 两位数加减法练习 |
-| G313 | 测量 | 单位换算练习 |
-| G314 | 万以内的加法和减法（二） | 1. 加法竖式<br>2. 加法竖式 |
-| G315 | 倍的认识 | 与“倍”有关的文字题 |
-| G316 | 多位数乘一位数 | 多位数乘一位数乘法竖式 |
-| G317 | 长方形和正方形 | 创建长方形类 |
-| G318 | 分数的初步认识 | 分数比大小练习 |
-| G319 | 数学广角——集合 | 集合运算 |
-| G321 | 位置与方向（一） | 辨认方向练习 |
-| G322 | 除数是一位数的除法 | 除数是一位数的除法竖式 |
-| G323 | 复式统计表 | 创建表格类及在字符界面显示表格 |
-| G324 | 两位数乘两位数 | 多位数乘法竖式 |
-| G325 | 面积 | 完善长方形类——求面积和画长方形 |
-| G326 | 年、月、日 | 显示某年某月的日历 |
-| G327 | 小数的初步认识 | 1. 四类小数练习题<br>2. 小数的形象化表示 |
-| G328 | 数学广角——搭配（二） | 三类常见计数问题 |
-| G411 | 大数的认识 | 读出任意自然数 |
-| G412 | 公顷和平方千米 | 面积单位换算练习 |
-| G413 | 角的度量 | 画表盘 |
-| G414 | 三位数乘两位数 | 通用乘法竖式 |
-| G415 | 平行四边形和梯形 | 数梯形 |
-| G416 | 除数是两位数的除法 | 通用除法竖式 |
-| G417 | 条形统计图 | 1. 应用 Matplotlib 绘制条形统计图<br>2. 创建带有绘图功能的表格类的子类 |
-| G418 | 数学广角——优化 | 报数游戏 |
-| G421 | 四则运算 | 有括号的四则混合运算 |
-| G422 | 观察物体（二） | 几何体三视图 |
-| G423 | 运算定律 | 解 24 点 |
-| G424 | 小数的意义和性质 | 三类小数练习题 |
-| G425 | 三角形 | 1. 画等腰三角形<br>2. 画正多边形 |
-| G426 | 小数的加法和减法 | 小数加减法竖式 |
-| G427 | 图形的运动（二） | 随机生成轴对称图形 |
-| G428 | 平均数与条形统计图 | 复式条形统计图和平均数 |
-| G429 | 数学广角——鸡兔同笼 | 鸡兔同笼 |
-| G511 | 小数乘法 | 小数乘法竖式 |
-| G512 | 位置 | 1. 坐标游戏——根据位置输入坐标<br>2. 坐标游戏——根据坐标点击位置 |
-| G513 | 小数除法 | 1. 小数除法竖式<br>2. 常见分数转化为小数练习 |
-| G514 | 可能性 | 1. 随机选择可能性不同的选项<br>2. 两个骰子的点数和 |
-| G515 | 简易方程 | 列方程求解鸡兔同笼问题 |
-| G516 | 多边形的面积 | 多边形类的面积属性 |
-| G517 | 数学广角——植树问题 | 植树问题 |
-| G521 | 观察物体（三） | 几何体三视图 v2 |
-| G522 | 因数与倍数 | 1. 获取 n 以内的所有质数<br>2. 哥德巴赫猜想 |
-| G523 | 长方体和正方体 | 1. 带有单位属性的长方体类<br>2. 体积单位换算 |
-| G524 | 分数的意义和性质 | 1. 最大公因数和最小公倍数<br>2. 小数转化为最简分数 |
-| G525 | 图形的运动（三） | 图形绕一点旋转 |
-| G526 | 分数的加法和减法 | 分数加减法 |
-| G527 | 折线统计图 | 复式折线统计图 |
-| G528 | 数学广角——找次品 | 找次品 |
+| G311 | Telling Time - Hours, Minutes, and Seconds | 1. Analog Clock<br>2. Digital Clock |
+| G312 | 2-Digit Addition and Subtraction | Practice 2-Digit Addition and Subtraction |
+| G313 | Measurements | Practice Unit Conversion |
+| G314 | Vertical Addition and Subtraction | 1. Vertical Addition<br>2. Vertical Subtraction |
+| G315 | Multiplication Word Problems | Practice Multiplication Word Problems |
+| G316 | Short Multiplication | Short Multiplication |
+| G317 | Rectangles and Squares | Create Rectangle Class |
+| G318 | Understanding Fractions | Practice Comparing Fractions |
+| G319 | Sets | Set Operations |
+| G321 | Orientations | Practice Identifying Orientations |
+| G322 | Short Division | Short Division |
+| G323 | Tables | Creating and Displaying Tables |
+| G324 | 2-Digit Long Multiplication | Long Multiplication 1 |
+| G325 | Area | Improve Rectangle Class - Calculate Area and Draw Rectangles |
+| G326 | Years, Months, and Days | Display Calendar |
+| G327 | Understanding Decimals | 1. Decimal Practice 1<br>2. Visualization of Decimals |
+| G328 | Combinations | Three Common Counting Problems |
+| G411 | Working with Large Numbers | Read Out Any Natural Number |
+| G412 | Large Area Units | Practice Area Unit Conversion |
+| G413 | Measuring Angles | Draw Clock Dial |
+| G414 | 3-Digit Long Multiplication | Long Multiplication 2 |
+| G415 | Parallelograms and Trapezoids | Counting Trapezoids |
+| G416 | Long Division | Long Division |
+| G417 | Bar Charts | 1. Creating Bar Charts Using Matplotlib<br>2. Creating Subclass of Table Class to Draw Bar Charts |
+| G418 | Optimization | Counting Game |
+| G421 | Order of Operations | Evaluate Arithmetic Expressions |
+| G422 | Observing Objects | Three Views of Cubes |
+| G423 | Basic Laws of Operation | Solve 24 |
+| G424 | Meaning and Properties of Decimals | Decimal Practice 2 |
+| G425 | Triangles | 1. Draw Isosceles Triangles<br>2. Draw Regular Polygons |
+| G426 | Addition and Subtraction of Decimals | Addition and Subtraction of Decimals in Vertical Form |
+| G427 | Reflective Symmetry | Generate Reflective Symmetric Shapes |
+| G428 | Mean Value and Grouped Bar Charts | Mean Value and Grouped Bar Charts |
+| G429 | Chicken and Rabbit Problem | Chicken and Rabbit Problem |
+| G511 | Decimal Multiplication | Long Multiplication of Decimals |
+| G512 | Position | 1. Input Coordinates Based on Positions<br>2. Click on Positions Based on Coordinates |
+| G513 | Decimal Division | 1. Long Division of Decimals<br>2. Practice Converting Common Fractions to Decimals |
+| G514 | Probability | 1. Random Selection with Weights<br>2. Sum of Two Dice Rolls |
+| G515 | Simple Equations | Solving Chicken and Rabbit Problem Using Equations |
+| G516 | Area of Polygons | Polygon Classes with Area Properties |
+| G517 | Tree Planting Problem | Tree Planting Problem |
+| G521 | Observing Objects 2 | Three Views of Cubes v2 |
+| G522 | Factors and Multiples | 1. Get Prime Numbers<br>2. Goldbach Conjecture |
+| G523 | Cuboids and Cubes | 1. Cuboid Class with Unit Property<br>2. Practice Volume Unit Conversion |
+| G524 | Meaning and Properties of Fractions | 1. Greatest Common Divisor and Least Common Multiple<br>2. Convert Decimal to Simplest Fraction |
+| G525 | Rotation | Rotation |
+| G526 | Addition and Subtraction of Fractions | Addition and Subtraction of Fractions |
+| G527 | Line Charts | Improve Data Class to Draw Multi-Line Charts |
+| G528 | Identify the Outlier | Identify the Outlier |
 
 ## Design Principles of Coding Exercises
 

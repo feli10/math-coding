@@ -37,9 +37,9 @@
 
 <p align="center"><img src="README_img/cn_en.jpg" alt="中英文介绍页对比" width="600"></p>
 
-[中文版小学数学编程手册.pdf 下载](https://raw.github.com/feli10/math-coding/main/_cn/小学数学编程手册.pdf)
+[中文版小学数学编程手册.pdf 下载](https://feli10.github.io/math-coding/docs/小学数学编程手册.pdf)
 
-[英文版小学数学编程手册.pdf 下载](https://raw.github.com/feli10/math-coding/main/math_coding_handbook.pdf)
+[英文版小学数学编程手册.pdf 下载](https://feli10.github.io/math-coding/docs/math_coding_handbook.pdf)
 
 实践证明，“数学+编程” 让学习者在高效学习数学的同时，还能熟练掌握一门编程语言。
 
