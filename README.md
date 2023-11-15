@@ -31,7 +31,7 @@ The project library contains 60 Python programs that we wrote during the year, i
 
 | `Graphical User Interface` | `Command Line Interface` |
 | --- | --- |
-| <img src="_en/README_img/g422_cubes_3view_2.png" alt="An examples of GUI programs" width="500"> | <img src="_en/README_img/g326_calendar.png" alt="An examples of CLI programs" width="500"> |
+| <img src="_en/README_img/g422_cubes_3view_2.png" alt="An example of GUI programs" width="500"> | <img src="_en/README_img/g326_calendar.png" alt="An example of CLI programs" width="500"> |
 
 All programs and the companion handbook have separate versions in English and Chinese. The `_en` directory contains the English version, with all graphical displays and program comments in English. The `_cn` directory contains the Chinese version, with all graphical displays and program comments in Chinese.
 
