@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>小学数学编程的高效学习</title>
+    <link rel="canonical" href="https://feli10.github.io/math-coding/cn/list.html">
+    <meta property="og:url" content="https://feli10.github.io/math-coding/cn/list.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://feli10.github.io/math-coding/assets/img/OG_image_cn.jpg">
+    <meta property="og:title" content="小学数学编程的高效学习">
+    <meta name="description" content="高效学习小学数学，熟练掌握 Python 编程。中英文学习手册和程序代码 GitHub 免费下载，包含人教版小学数学教材三至五年级全部 49 个单元共 60 个 Python 程序。采用 “数学+编程” 的方式，平均每两个月完成一个学期的课程，6至7岁一年完成小学三至五年级的数学学习。实践证明，“数学+编程” 让学习者在高效学习数学的同时，还能熟练掌握一门编程语言。">
+    <meta property="og:description" content="包含人教版小学数学教材三至五年级全部 49 个单元共 60 个 Python 程序，中英文学习手册和程序代码 GitHub 免费下载。高效学习小学数学，熟练掌握 Python 编程。采用 “数学+编程” 的方式，平均每两个月完成一个学期的课程，6至7岁一年完成小学三至五年级的数学学习。实践证明，“数学+编程” 让学习者在高效学习数学的同时，还能熟练掌握一门编程语言。">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="../assets/img/favicon180.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon32.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="../assets/img/favicon180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../assets/img/favicon192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../assets/img/favicon512.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md fixed-top" style="background: rgb(218,207,189);">
+        <div class="container"><a class="navbar-brand" href="./" style="padding: 0px;"><img src="../assets/img/logo100.png" style="width: 40px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav d-flex align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="./">主页</a></li>
+                    <li class="nav-item"><a class="nav-link" href="project.html">项目报告</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">关于我们</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">程序列表</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../docs/小学数学编程手册.pdf">手册下载<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-download">
+                                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
+                                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
+                            </svg></a></li>
+                </ul>
+                <ul class="navbar-nav ms-auto d-flex align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/feli10/math-coding"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-github" style="font-size: 20px;">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+                            </svg></a></li>
+                    <li class="nav-item"><a class="nav-link" href="../">EN</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div><img class="w-100" src="../assets/img/list_cn.jpg"></div>
+        <section><p>* <em>单元对应人教版数学教材。</em></p>
+<table class="table table-striped align-middle">
+    <thead>
+        <tr>
+            <th>编号</th>
+            <th>单元<sup>*</sup></th>
+            <th>程序</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>G311</td>
+            <td>时、分、秒</td>
+            <td>1. 表盘时钟<br>2. 数字时钟计数器</td>
+        </tr>
+        <tr>
+            <td>G312</td>
+            <td>万以内的加法和减法（一）</td>
+            <td>两位数加减法练习</td>
+        </tr>
+        <tr>
+            <td>G313</td>
+            <td>测量</td>
+            <td>单位换算练习</td>
+        </tr>
+        <tr>
+            <td>G314</td>
+            <td>万以内的加法和减法（二）</td>
+            <td>1. 加法竖式<br>2. 加法竖式</td>
+        </tr>
+        <tr>
+            <td>G315</td>
+            <td>倍的认识</td>
+            <td>与“倍”有关的文字题</td>
+        </tr>
+        <tr>
+            <td>G316</td>
+            <td>多位数乘一位数</td>
+            <td>多位数乘一位数乘法竖式</td>
+        </tr>
+        <tr>
+            <td>G317</td>
+            <td>长方形和正方形</td>
+            <td>创建长方形类</td>
+        </tr>
+        <tr>
+            <td>G318</td>
+            <td>分数的初步认识</td>
+            <td>分数比大小练习</td>
+        </tr>
+        <tr>
+            <td>G319</td>
+            <td>数学广角——集合</td>
+            <td>集合运算</td>
+        </tr>
+        <tr>
+            <td>G321</td>
+            <td>位置与方向（一）</td>
+            <td>辨认方向练习</td>
+        </tr>
+        <tr>
+            <td>G322</td>
+            <td>除数是一位数的除法</td>
+            <td>除数是一位数的除法竖式</td>
+        </tr>
+        <tr>
+            <td>G323</td>
+            <td>复式统计表</td>
+            <td>创建表格类及在字符界面显示表格</td>
+        </tr>
+        <tr>
+            <td>G324</td>
+            <td>两位数乘两位数</td>
+            <td>多位数乘法竖式</td>
+        </tr>
+        <tr>
+            <td>G325</td>
+            <td>面积</td>
+            <td>完善长方形类——求面积和画长方形</td>
+        </tr>
+        <tr>
+            <td>G326</td>
+            <td>年、月、日</td>
+            <td>显示某年某月的日历</td>
+        </tr>
+        <tr>
+            <td>G327</td>
+            <td>小数的初步认识</td>
+            <td>1. 四类小数练习题<br>2. 小数的形象化表示</td>
+        </tr>
+        <tr>
+            <td>G328</td>
+            <td>数学广角——搭配（二）</td>
+            <td>三类常见计数问题</td>
+        </tr>
+        <tr>
+            <td>G411</td>
+            <td>大数的认识</td>
+            <td>读出任意自然数</td>
+        </tr>
+        <tr>
+            <td>G412</td>
+            <td>公顷和平方千米</td>
+            <td>面积单位换算练习</td>
+        </tr>
+        <tr>
+            <td>G413</td>
+            <td>角的度量</td>
+            <td>画表盘</td>
+        </tr>
+        <tr>
+            <td>G414</td>
+            <td>三位数乘两位数</td>
+            <td>通用乘法竖式</td>
+        </tr>
+        <tr>
+            <td>G415</td>
+            <td>平行四边形和梯形</td>
+            <td>数梯形</td>
+        </tr>
+        <tr>
+            <td>G416</td>
+            <td>除数是两位数的除法</td>
+            <td>通用除法竖式</td>
+        </tr>
+        <tr>
+            <td>G417</td>
+            <td>条形统计图</td>
+            <td>1. 应用 Matplotlib 绘制条形统计图<br>2. 创建带有绘图功能的表格类的子类</td>
+        </tr>
+        <tr>
+            <td>G418</td>
+            <td>数学广角——优化</td>
+            <td>报数游戏</td>
+        </tr>
+        <tr>
+            <td>G421</td>
+            <td>四则运算</td>
+            <td>有括号的四则混合运算</td>
+        </tr>
+        <tr>
+            <td>G422</td>
+            <td>观察物体（二）</td>
+            <td>几何体三视图</td>
+        </tr>
+        <tr>
+            <td>G423</td>
+            <td>运算定律</td>
+            <td>解 24 点</td>
+        </tr>
+        <tr>
+            <td>G424</td>
+            <td>小数的意义和性质</td>
+            <td>三类小数练习题</td>
+        </tr>
+        <tr>
+            <td>G425</td>
+            <td>三角形</td>
+            <td>1. 画等腰三角形<br>2. 画正多边形</td>
+        </tr>
+        <tr>
+            <td>G426</td>
+            <td>小数的加法和减法</td>
+            <td>小数加减法竖式</td>
+        </tr>
+        <tr>
+            <td>G427</td>
+            <td>图形的运动（二）</td>
+            <td>随机生成轴对称图形</td>
+        </tr>
+        <tr>
+            <td>G428</td>
+            <td>平均数与条形统计图</td>
+            <td>复式条形统计图和平均数</td>
+        </tr>
+        <tr>
+            <td>G429</td>
+            <td>数学广角——鸡兔同笼</td>
+            <td>鸡兔同笼</td>
+        </tr>
+        <tr>
+            <td>G511</td>
+            <td>小数乘法</td>
+            <td>小数乘法竖式</td>
+        </tr>
+        <tr>
+            <td>G512</td>
+            <td>位置</td>
+            <td>1. 坐标游戏——根据位置输入坐标<br>2. 坐标游戏——根据坐标点击位置</td>
+        </tr>
+        <tr>
+            <td>G513</td>
+            <td>小数除法</td>
+            <td>1. 小数除法竖式<br>2. 常见分数转化为小数练习</td>
+        </tr>
+        <tr>
+            <td>G514</td>
+            <td>可能性</td>
+            <td>1. 随机选择可能性不同的选项<br>2. 两个骰子的点数和</td>
+        </tr>
+        <tr>
+            <td>G515</td>
+            <td>简易方程</td>
+            <td>列方程求解鸡兔同笼问题</td>
+        </tr>
+        <tr>
+            <td>G516</td>
+            <td>多边形的面积</td>
+            <td>多边形类的面积属性</td>
+        </tr>
+        <tr>
+            <td>G517</td>
+            <td>数学广角——植树问题</td>
+            <td>植树问题</td>
+        </tr>
+        <tr>
+            <td>G521</td>
+            <td>观察物体（三）</td>
+            <td>几何体三视图 v2</td>
+        </tr>
+        <tr>
+            <td>G522</td>
+            <td>因数与倍数</td>
+            <td>1. 获取 n 以内的所有质数<br>2. 哥德巴赫猜想</td>
+        </tr>
+        <tr>
+            <td>G523</td>
+            <td>长方体和正方体</td>
+            <td>1. 带有单位属性的长方体类<br>2. 体积单位换算</td>
+        </tr>
+        <tr>
+            <td>G524</td>
+            <td>分数的意义和性质</td>
+            <td>1. 最大公因数和最小公倍数<br>2. 小数转化为最简分数</td>
+        </tr>
+        <tr>
+            <td>G525</td>
+            <td>图形的运动（三）</td>
+            <td>图形绕一点旋转</td>
+        </tr>
+        <tr>
+            <td>G526</td>
+            <td>分数的加法和减法</td>
+            <td>分数加减法</td>
+        </tr>
+        <tr>
+            <td>G527</td>
+            <td>折线统计图</td>
+            <td>复式折线统计图</td>
+        </tr>
+        <tr>
+            <td>G528</td>
+            <td>数学广角——找次品</td>
+            <td>找次品</td>
+        </tr>
+    </tbody>
+</table></section>
+        <footer><p>
+	<a href="mailto:math-coding@hotmail.com">math-coding@hotmail.com</a><br>
+	Project code is on <a href="https://github.com/feli10/math-coding">GitHub</a>.<br>
+	Code licensed under <a href="https://github.com/feli10/math-coding/blob/main/LICENSE">Apache-2.0</a>, documents including handbooks licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.<br>
+	© 2023
+</p></footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

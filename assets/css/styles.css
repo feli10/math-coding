@@ -1,0 +1,292 @@
+body {
+  padding-top: 56px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .nav-link:focus, .navbar-nav .nav-link:hover {
+  color: rgb(233,71,37);
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+body > .container {
+  padding: 0;
+}
+
+section {
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 20px 40px;
+  }
+}
+
+section > h1 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.title_cn {
+  max-width: 120px;
+}
+
+.title {
+  max-width: 160px;
+}
+
+@media (min-width: 576px) {
+  .title_cn {
+    max-width: 160px;
+  }
+}
+
+@media (min-width: 576px) {
+  .title {
+    max-width: 200px;
+  }
+}
+
+section p {
+  line-height: 1.8;
+}
+
+section li {
+  line-height: 1.8;
+  margin-bottom: 8px;
+}
+
+section ol {
+  margin-top: -8px;
+}
+
+.home-img {
+  margin-bottom: 16px;
+}
+
+.download {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+#spaceman1, #spaceman3 {
+  float: right;
+  width: 150px;
+}
+
+#spaceman2 {
+  float: left;
+  width: 150px;
+}
+
+#video {
+  background: url("../../assets/img/home_video.jpg");
+  background-size: 100% 100%;
+  padding: 40px 0;
+  margin-top: 24px;
+}
+
+footer {
+  background: url("../../assets/img/footer.jpg");
+  background-size: 100% 100%;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  padding: 20px;
+}
+
+footer a {
+  color: gray;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgb(69,146,224);
+  text-decoration: underline;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 16px;
+  margin: 0 -20px 24px;
+  color: white;
+  padding: 10px 0 10px 10px;
+}
+
+#orange1cn, #orange2cn, #purple1cn, #purple2cn {
+  letter-spacing: 3px;
+}
+
+@media (min-width: 576px) {
+  h2 {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+}
+
+#orange1cn, #orange2cn, #purple1cn, #purple2cn {
+  letter-spacing: 5px;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    margin: 0 -40px 24px;
+    padding-left: 40px;
+  }
+}
+
+#orange1cn {
+  background: url("../../assets/img/project_orange1.png");
+  background-size: 110% 100%;
+}
+
+#orange2cn {
+  background: url("../../assets/img/project_orange2.png");
+  background-size: 110% 100%;
+}
+
+#orange1 {
+  background: url("../../assets/img/project_orange1.png");
+  background-size: 140% 100%;
+}
+
+#orange2 {
+  background: url("../../assets/img/project_orange2.png");
+  background-size: 140% 100%;
+}
+
+@media (min-width: 576px) {
+  #orange1cn, #orange2cn, #orange1, #orange2 {
+    background-size: 100% 100%;
+  }
+}
+
+#spaceman4 {
+  width: 120px;
+  float: right;
+  margin-right: -20px;
+}
+
+@media (min-width: 576px) {
+  #spaceman4 {
+    width: 150px;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+#purple1cn {
+  background: url("../../assets/img/project_purple1.png");
+  background-size: 100% 100%;
+}
+
+#purple2cn {
+  background: url("../../assets/img/project_purple2.png");
+  background-size: 100% 100%;
+}
+
+#purple1 {
+  background: url("../../assets/img/project_purple1.png");
+  background-size: 140% 100%;
+}
+
+#purple2 {
+  background: url("../../assets/img/project_purple2.png");
+  background-size: 140% 100%;
+}
+
+@media (min-width: 576px) {
+  #purple1, #purple2 {
+    background-size: 100% 100%;
+  }
+}
+
+#spaceman5 {
+  width: 120px;
+  float: right;
+  margin-right: -20px;
+}
+
+@media (min-width: 576px) {
+  #spaceman5 {
+    width: 150px;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+#henry-title {
+  color: #4592e0;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  #henry-title {
+    font-size: 24px;
+  }
+}
+
+#henry-title.cn {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 576px) {
+  #henry-title.cn {
+    font-size: 24px;
+    letter-spacing: 5px;
+  }
+}
+
+#henry-list {
+  background: url("../../assets/img/project_henry.jpg");
+  background-size: 100% 100%;
+  padding: 10px 20px 10px 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  #henry-list {
+    padding: 10px 50px 10px 40px;
+  }
+}
+
+#henry-list li {
+  margin: 16px 0;
+}
+
+#henry-list li > ul > li:last-child {
+  margin-bottom: 0;
+}
+
+#example_cn {
+  max-width: 250px;
+  margin-top: 8px;
+}
+
+#example {
+  max-width: 400px;
+  margin-top: 8px;
+}
+
+#about1 {
+  background: rgb(213, 225,238) url("../../assets/img/about_spaceman_bg.png") no-repeat;
+  background-position: 80%;
+  background-size: auto 80%;
+}
+
+#about2 {
+  background: rgb(213, 225,238);
+}
+
