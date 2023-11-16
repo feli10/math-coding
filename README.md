@@ -27,15 +27,15 @@ Project Website: https://feli10.github.io/math-coding/
 
 ## What is this?
 
-In 2022, my parents entrusted me to help my younger brother learn elementary school mathematics. At the time, he was six years old, and I was a freshman in high school. To tackle this project, I formulated a plan - after he completed each unit in his math textbook, I would design and assign him 1-2 coding exercises, written in Python, that closely relate to the unit's content. Using this approach combining mathematics and programming, we managed to complete an average of one semester's worth of coursework every two months. In about a year, we had finished the Chinese elementary mathematics curriculum from grades three to five.
+In 2022, my parents entrusted me to help my younger brother learn elementary school mathematics. At the time, he was six years old, and I was a freshman in high school. To tackle this project, I formulated a plan - after he completed each unit in his math textbook, I would design and assign him 1-2 coding exercises, written in Python, that closely relate to the unit's content. Using this approach combining mathematics and coding, we managed to complete an average of one semester's worth of coursework every two months. In about a year, we had finished the Chinese elementary school mathematics curriculum from grades three to five.
 
-The project library contains 60 Python programs that we wrote during the year, including 22 with graphical user interfaces and 38 with command line interfaces. These programs cover all 49 units from the third- to fifth-grade Chinese mathematics textbooks of the People's Education Press. The `math_coding_handbook.pdf` file contains the main mathematical topics for each unit and descriptions of the corresponding programs(s). We have also included detailed documentation and comments within all programs.
+The project library contains 60 Python programs that we wrote during the year, including 22 with graphical user interfaces and 38 with command line interfaces. These programs cover all 49 units from the third- to fifth-grade Chinese mathematics textbooks of the People's Education Press. The `math_coding_handbook.pdf` file contains the main mathematical topics for each unit and descriptions of the corresponding program(s). We have also included detailed documentation and comments within all programs.
 
 | `Graphical User Interface` | `Command Line Interface` |
 | --- | --- |
 | <img src="_en/README_img/g422_cubes_3view_2.png" alt="An example of GUI programs" width="500"> | <img src="_en/README_img/g326_calendar.png" alt="An example of CLI programs" width="500"> |
 
-All programs and the companion handbook have separate versions in English and Chinese. The `_en` directory contains the English version, with all graphical displays and program comments in English. The `_cn` directory contains the Chinese version, with all graphical displays and program comments in Chinese.
+All programs and the learning handbook have separate versions in English and Chinese. The `_en` directory contains the English version, with all graphical displays and program comments in English. The `_cn` directory contains the Chinese version, with all graphical displays and program comments in Chinese.
 
 <p align="center"><img src="_en/README_img/en_cn.jpg" alt="Comparison of English and Chinese handbooks" width="600"></p>
 
@@ -43,53 +43,53 @@ All programs and the companion handbook have separate versions in English and Ch
 
 [Download math_coding_handbook.pdf (Chinese version)](https://feli10.github.io/math-coding/docs/小学数学编程手册.pdf)
 
-Through this project, my brother and I have proven in practice that learning elementary math with coding allows learners to efficiently and effectively study mathematics while simultaneously becoming proficient in a programming language.
+Through this project, my brother and I have proven in practice that learning elementary school math with coding allows learners to efficiently and effectively study mathematics while simultaneously becoming proficient in a programming language.
 
 ## Who is this for?
 
 To effectively learn elementary school math with coding through this project requires the following:
 
-1. Elementary school students interested in mathematics and programming.
+1. Elementary school students interested in mathematics and coding.
 2. People willing to invest time and effort in guiding children through the coding exercises, including but not limited to parents, older siblings, teachers, or community volunteers.
 
 There are two ways to use this project:
 
 1. Following the school curriculum: This project can serve as a supplementary learning resource for school mathematics curriculums, suitable for learners who want to learn math and coding simultaneously.
-2. According to personal progress: You can follow the coding exercises in this project to accelerate the completion of elementary school mathematics. For details, please refer to [our website](https://feli10.github.io/math-coding/project.html).
+2. According to personal progress: You can follow the coding exercises in this project to accelerate the completion of elementary school mathematics. For details, please refer to [the “Project Details” page of our website](https://feli10.github.io/math-coding/project.html).
 
 ## Project Origins
 
 In 2022, when my younger brother Henry was six years old, my parents asked me to take charge of his mathematics and English education temporarily. At the time, I was ten years older than him and in my first year of high school. The initial goal we agreed upon was that, before I went to college, I would help him complete elementary school math and reach a level of English proficiency where he could continue to improve independently. Since I was the best in the family at English, there weren't many uncertainties about that, but how would I go about teaching him math?
 
-I completed elementary school mathematics when I was nine years old. Looking back, I remember reading many textbooks, doing lots of practice problems, and taking quite a few mock tests. After some consideration, I realized Henry, who was only six, needed a different approach. Based on my learning experience, when someone constantly struggles with a particular type of math problem, it's usually because they lack a deep understanding of the underlying concepts. The purpose of doing practice problems should be to identify and address these weaknesses. However, If one does practice problems mindlessly, the same mistakes will appear again and again. This is why doing a sea of practice problems is often not an efficient way to learn new math topics. Therefore, I aimed to find an approach that would allow Henry to thoroughly understand any math concepts and skills he needs to learn before diving into extensive problem-solving.
+I completed elementary school mathematics when I was nine years old. Looking back, I remember reading many textbooks, doing lots of practice problems, and taking quite a few mock tests. After some consideration, I realized Henry, who was only six, needed a different approach. Based on my learning experience, when someone constantly struggles with a particular type of math problem, it's usually because they lack a deep understanding of the underlying concepts. The purpose of doing practice problems should be to identify and address these weaknesses. However, if one does practice problems mindlessly, the same mistakes will appear again and again. This is why doing a sea of practice problems is often not an efficient way to learn new math topics. Therefore, I aimed to find an approach that would allow Henry to thoroughly understand any math concepts and skills he needs to learn before diving into extensive problem-solving.
 
-The primary inspiration for combining math and coding came from taking high-level math courses as part of a machine learning research project. While taking the courses, I found that using programming tools to assist in learning mathematics at the university level was quite common and highly effective. When learning calculus, linear algebra, and statistics, programming was used to conduct mathematical experiments and solve practical problems. Coupled with the visualization of results, this greatly aided my understanding of abstract mathematical concepts and theorems. Later, I also found a few resources for learning middle school mathematics with the help of programming. However, I never found anything that combined elementary school mathematics with programming.
+The primary inspiration for combining math and coding came from taking high-level math courses as part of a machine learning research project. While taking the courses, I found that using programming tools to assist in learning mathematics at the university level was quite common and highly effective. When learning calculus, linear algebra, and statistics, programming was used to conduct mathematical experiments and solve practical problems. Coupled with the visualization of results, this greatly aided my understanding of abstract mathematical concepts and theorems. Later, I also found a few resources for learning middle school mathematics with the help of programming. However, I never found anything similar for elementary school mathematics.
 
 So, after discussing my idea with Henry, the "Learn Elementary School Math with Coding" project was born.
 
 ## Project Goals
 
-In addition to the year-long math coding project with Henry, we organized several programming weekend events, in which I led 5-10 children to learn mathematics with programming. Because these events were quite successful, I believe this project can benefit more children - allowing them to learn math efficiently with improved learning outcomes while equipping them with programming skills.
+In addition to the year-long project with Henry, we organized several “programming weekend” events, in which I led groups of 5-10 children to learn mathematics with programming. Because these events were quite successful, I believe this project can benefit more children - allowing them to learn math efficiently with improved learning outcomes while equipping them with programming skills.
 
 For children following the school curriculum, we hope this project can help them enhance their math and programming abilities. We also hope this project allows those who wish to accelerate their math learning, like Henry, to do so. One benefit of accelerated learning is that knowledge of fundamental mathematics can facilitate early interest development. For example, Henry's mathematic abilities greatly aided his music learning, allowing his musical interest and talent to develop early.
 
-I hope this project can provide people with a new approach to learning mathematics and bring more opportunities to those who choose to use it. If you have any questions or suggestions about the project, feel free to contact me by this email: math-coding@hotmail.com.
+I hope this project can provide people with a new approach to learning mathematics and bring more opportunities to those who choose to use it. If you have any questions or suggestions about the project, feel free to contact me at this email: math-coding@hotmail.com.
 
 ## Usage Information
 
-* The organization of the directories is identical to the elementary school mathematics textbook of the Chinese People's Education Press. For example, for the directory name `g311_time`, the "g311" at the beginning identifies that the directory corresponds to unit 1 of semester 1 of the grade 3 textbook.
+* The organization of the directories is identical to the elementary school Chinese mathematics textbooks of the People's Education Press. For example, for the directory name `g311_time`, the "g311" at the beginning identifies that the directory corresponds to unit 1 of semester 1 of the grade 3 textbook.
     * The "g" and the digit following it represent the grade.
     * The second digit may be either 1 or 2. 1 represents the first semester, and 2 represents the second semester.
-    * The third digit represents the specific unit within the textbook.
+    * The third digit represents the specific unit within the semester.
 * The text after the identifier indicates the main learning content of the unit. The G311 unit is mainly about telling time, so the directory name of this unit is `g311_time`.
-* Each directory contains 1-2 个 Python program files. The names of the programs are indicative of their contents. For example, `g311_time` contains two programs: `clock.py`, which displays a functioning analog clock, and `digital_clock.py`, which displays a functioning digital clock.
-* the `math_coding_handbook.pdf` file in the `_en` directory contains description pages for all 60 programs across 49 units from grades 3 to 5. Each program description page contains the following:
-    * File name.
-    * Graphical display or command line display.
-    * Difficulty rating (1 to 5 stars).
-    * Programming skills used.
-    * Program description.
-    * Screenshots of program output.
+* Each directory contains 1-2 Python program files. The names of the programs are indicative of their contents. For example, `g311_time` contains two programs: `clock.py`, which displays a functioning analog clock, and `digital_clock.py`, which displays a functioning digital clock.
+* the `math_coding_handbook.pdf` file in the `_en` directory contains description pages for all 60 programs across 49 units from grades 3 to 5. Each program description contains the following:
+    * File name
+    * Graphical command line interface
+    * Difficulty rating (1 to 5 stars)
+    * Main coding skills used
+    * Program description
+    * Screenshots of program output
 
     <p align="center"><img src="_en/README_img/guide.jpg" alt="Introduction to the use of handbook" width="600"></p>
 
@@ -97,7 +97,7 @@ I hope this project can provide people with a new approach to learning mathemati
 
     ![Docstring example](_en/README_img/docstring.png)
 
-* The companion handbook and all programs have separate English and Chinese versions. The `_en` and `_cn` directories are organized in the same way but with content in English and Chinese, respectively.
+* The learning handbook and all programs have separate English and Chinese versions. The `_en` and `_cn` directories are organized in the same way but with content in English and Chinese, respectively.
 * Some programs in the code library contain references to each other. Therefore, we recommend downloading the entire code library before use.
 * A few notes on the mathematical content of the program:
     * All mathematical units are in SI (International System).
@@ -162,21 +162,21 @@ I hope this project can provide people with a new approach to learning mathemati
 ## Design Principles of Coding Exercises
 
 1. The exercises are closely related to the math content introduced in their corresponding units.
-2. Math curriculums are usually organized in a progressive manner, with content in later units connected with earlier ones. Therefore, we also strive to establish connections in programming, which is primarily reflected in the following aspects:
+2. Math curriculums are usually organized in a progressive manner, with content in later units connected with earlier ones. Therefore, we also strive to establish connections in our programs, which is primarily reflected in the following aspects:
     * Math units that progress sequentially correspond to programs that also progress sequentially.
     * Coding exercises adhere to the DRY principle (Don't Repeat Yourself), allowing later programs to reuse earlier ones.
-    * Later programs often revisit programming knowledge and techniques established in earlier programs.
+    * Later programs often revisit coding knowledge and techniques established in earlier programs.
 3. Coding exercises gradually involve more programming knowledge and skills. Programming knowledge covered includes:
-    * Basic data types (int, float, string), variables, functions, conditionals, loops.
-    * Data types containing multiple elements (Containers): lists, tuples, dictionaries, sets.
-    * Classes and objects (OOP).
+    * Basic data types (int, float, string), variables, functions, conditionals, loops
+    * Data types containing multiple elements (containers): lists, tuples, dictionaries, sets
+    * Classes and objects (object-oriented programming)
     * Common modules, packages, and libraries:
         * Random: random
-        * Graphical interface programming: turtle, tkinter.
-        * Combinatorics: itertools.
-        * Data visualization: matplotlib.
-    * Threads.
-    * Exception handling (Raise/Handle Exception).
+        * Graphical interface: turtle, tkinter
+        * Combinatorics: itertools
+        * Data visualization: matplotlib
+    * Threads
+    * Exception handling (raise/handle exception)
 
 ## Programming Style
 
@@ -185,7 +185,7 @@ The goal of programs in this project is to translate human problem-solving metho
 1. For beginner programmers, the primary goal is to write a program that can achieve the expected results. This is a process of becoming familiar with the programming language and building confidence. So, the programs must be simple, intuitive, and easy to understand.
 2. Programming is gradually becoming an essential skill, but only a small percentage of individuals will pursue careers in computer and software development. Most people don’t need to know how to create the most optimal algorithms or data structures. All they need is the ability to translate work processes into machine language, which will allow them to automate repetitive and precise tasks, mostly involving small amounts of data.
 
-Therefore, we prioritized results above efficiency for most of our programs. However, when encountering programming problems where runtime is greatly affected by input data, learners will be guided to try different programming methods of varying efficiencies.
+Therefore, we prioritized results above efficiency for most of our programs. However, when encountering scenarios where runtime is greatly affected by input data, learners will be guided to try different programming methods of varying efficiencies.
 
 ## Setting Up the Development Environment
 
@@ -195,8 +195,8 @@ Therefore, we prioritized results above efficiency for most of our programs. How
 
     <p align="center"><img src="_en/README_img/python_install_win.png" alt="Python Windows installer interface" width="80%"></p>
    
-3. [Install Anaconda or Miniconda](https://docs.conda.io/projects/conda/en/stable/user-guide/install/download.html) (suitable for various operating systems). Conda is an open-source package and environment management system. Installing Conda also installs Python and some commonly used modules.
-4. Use [Homebrew](https://brew.sh/) to install Python (suitable for macOS and Linux operating systems). Homebrew is an open-source package management system. If Homebrew is already installed on your system, you can use the following command to install Python:
+2. [Install Anaconda or Miniconda](https://docs.conda.io/projects/conda/en/stable/user-guide/install/download.html) (suitable for various operating systems). Conda is an open-source package and environment management system. Installing Conda also installs Python and some commonly used modules.
+3. Use [Homebrew](https://brew.sh/) to install Python (suitable for macOS and Linux operating systems). Homebrew is an open-source package management system. If Homebrew is already installed on your system, you can use the following command to install Python:
     
     ```bash
     brew install python-tk
